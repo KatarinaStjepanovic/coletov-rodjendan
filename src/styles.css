@@ -209,7 +209,6 @@ html {
 
 .letter{
     width: 70%;
-    height: 75%;
     position: absolute;
     background-color: var(--gray-color);
     font-family: var(--cursive);
