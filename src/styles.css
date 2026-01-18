@@ -1,0 +1,224 @@
+:root {
+    --text-color: #534D46;
+    --light-brown: #BEA88F;
+    --gray-color: rgba(217, 217, 217, 1);
+    --bold-font: "Alfa Slab One";
+    --cursive: "Allura";
+    --normal: "Montserrat";
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    position: relative;
+}
+
+html {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.topLeftImg {
+    position: relative;
+    left: 0;
+    width: 40%;
+    top: -15px;
+    left: -8px;
+    display: inline-block;
+}
+
+.grayDiv {
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    background-color: var(--gray-color);
+    transform: rotate(-10deg);
+    right: 0;
+    top: -20%;
+}
+
+.iLoveYou {
+    font-size: 25px;
+    font-family: var(--cursive);
+    position: absolute;
+    top: 10px;
+    right: 5%;
+    width: 20%;
+
+}
+
+.happyB {
+    font-size: 25px;
+    font-family: var(--bold-font);
+    color: var(--text-color);
+    z-index: 999;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 80%;
+    top: 100px;
+}
+
+.name {
+    position: absolute;
+    font-family: var(--normal);
+    color: black;
+    left: 78%;
+    font-size: 20px;
+    top: 135px;
+}
+
+.butterfly1 {
+    position: relative;
+    height: 60px;
+    left: 10%;
+    transform: rotate(20deg);
+}
+
+.banner {
+    width: 110%;
+    position: relative;
+    top: 30%;
+}
+
+.butterfly2{
+    position: absolute;
+    width: 60px;
+    right: 5%;
+    z-index: 999;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    position: relative;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+}
+
+.leftPic{
+    display: flex;
+    place-content: center;
+    position: relative;
+}
+
+.leftPic::after{
+    content: "";
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    left: -5%;
+    top: -5%;
+    background-color: var(--gray-color);
+    z-index: 0;
+}
+
+.text1, 
+.text2{
+    text-align: left;
+    font-size: 20px;
+    font-family: var(--normal);
+    width: 50%;
+    line-height: 30px;
+    height: fit-content;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+
+
+
+.text1{
+    left: 10%;
+}
+
+.text2{
+   text-align: right;
+   left: 80%;
+   width: 60%;
+   transform: translate(-80%, -50%);
+}
+
+
+.frame1,
+.frame2 {
+    max-height: 200px;
+    width: auto;
+    object-fit: cover;
+    z-index: 999;
+}
+
+.frame1{
+    height: 85%;
+}
+
+.butterfly3{
+    position: absolute;
+    left: 5%;
+    top: 65%;
+    transform: rotate(-15deg);
+    height: 5%;
+}
+
+.buttonPattern{
+    position: absolute;
+    left: 15%;
+    width: 50%;
+    height: 8%;
+    margin-top: 2%;
+}
+
+.button{
+    font-family: var(--cursive);
+    font-size: 25px;
+    color: white;
+    z-index: 999;
+    background-color: var(--light-brown);
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 60% ;
+    left: 10%;
+    margin-top: 5%;
+}
+
+.bottomLeft{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 25%;
+}
+
+.letterDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+    width:  100%;
+    position: absolute;
+    background-image:url("/Sofija/LetterBg.png") ;
+
+}
+
+.letter{
+    width: 70%;
+    height: 75%;
+    position: absolute;
+    background-color: var(--gray-color);
+    font-family: var(--cursive);
+    font-size: 20px;
+    padding: 8%;
+}
+
+.signature{
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+}
