@@ -200,7 +200,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 85%;
+    height: 100%;
     width:  100%;
     position: absolute;
     background-image:url("/Sofija/LetterBg.png") ;
